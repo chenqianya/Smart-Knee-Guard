@@ -1,0 +1,43 @@
+# 数据文件
+datasets/
+processed/
+
+# 模型文件
+models/
+*.pkl
+*.h5
+*.tflite
+*.joblib
+
+# 环境相关
+.venv/
+venv/
+ml_env/
+tf_env/
+cv_env/
+
+# IDE 文件
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.iml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# 日志
+*.log
+logs/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.pyo
+*.tmp
+*.temp
+*.bak
+
+all-files.txt
