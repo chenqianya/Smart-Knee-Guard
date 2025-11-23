@@ -1,0 +1,74 @@
+# ============================
+# Python Virtual Environments
+# ============================
+.env
+venv/
+.venv/
+ml_env/
+cv_env/
+tf_env/
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ============================
+# Data Files
+# ============================
+datasets/
+data/
+processed/
+*.csv
+*.json
+*.npz
+*.npy
+
+# ============================
+# Model Files
+# ============================
+models/
+*.pkl
+*.h5
+*.tflite
+*.joblib
+*.onnx
+
+# ============================
+# IDE and Editor Config
+# ============================
+.vscode/
+.idea/
+*.code-workspace
+
+# ============================
+# Logs and Temp Files
+# ============================
+*.log
+logs/
+tmp/
+*.tmp
+*.bak
+
+# ============================
+# Jupyter
+# ============================
+.ipynb_checkpoints/
+
+# ============================
+# System Files
+# ============================
+.DS_Store
+Thumbs.db
+
+# ============================
+# Project-specific ignore
+# ============================
+# 临时测试脚本（你经常生成）
+small_test.py
+xx.py
+schumx.py
+test_*.py
+*.test.py
+
+# 不需要加入仓库的临时结果文件
+imu_data_batch.json
